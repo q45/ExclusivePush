@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4FAA3331730301300D988CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FAA3321730301300D988CA /* Cocoa.framework */; };
+		E4FAA3351730301300D988CA /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FAA3341730301300D988CA /* AppleScriptObjC.framework */; };
+		E4FAA33F1730301300D988CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4FAA33D1730301300D988CA /* InfoPlist.strings */; };
+		E4FAA3411730301300D988CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FAA3401730301300D988CA /* main.m */; };
+		E4FAA3451730301300D988CA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E4FAA3431730301300D988CA /* Credits.rtf */; };
+		E4FAA3471730301300D988CA /* EPAppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = E4FAA3461730301300D988CA /* EPAppDelegate.applescript */; };
+		E4FAA34A1730301300D988CA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4FAA3481730301300D988CA /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E4FAA32F1730301300D988CA /* ExclusivePush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExclusivePush.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4FAA3321730301300D988CA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E4FAA3341730301300D988CA /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		E4FAA3371730301300D988CA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E4FAA3381730301300D988CA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E4FAA3391730301300D988CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E4FAA33C1730301300D988CA /* ExclusivePush-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExclusivePush-Info.plist"; sourceTree = "<group>"; };
+		E4FAA33E1730301300D988CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E4FAA3401730301300D988CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4FAA3421730301300D988CA /* ExclusivePush-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExclusivePush-Prefix.pch"; sourceTree = "<group>"; };
+		E4FAA3441730301300D988CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E4FAA3461730301300D988CA /* EPAppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = EPAppDelegate.applescript; sourceTree = "<group>"; };
+		E4FAA3491730301300D988CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4FAA32C1730301300D988CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4FAA3331730301300D988CA /* Cocoa.framework in Frameworks */,
+				E4FAA3351730301300D988CA /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4FAA3261730301300D988CA = {
+			isa = PBXGroup;
+			children = (
+				E4FAA33A1730301300D988CA /* ExclusivePush */,
+				E4FAA3311730301300D988CA /* Frameworks */,
+				E4FAA3301730301300D988CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4FAA3301730301300D988CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4FAA32F1730301300D988CA /* ExclusivePush.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4FAA3311730301300D988CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4FAA3321730301300D988CA /* Cocoa.framework */,
+				E4FAA3341730301300D988CA /* AppleScriptObjC.framework */,
+				E4FAA3361730301300D988CA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4FAA3361730301300D988CA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4FAA3371730301300D988CA /* AppKit.framework */,
+				E4FAA3381730301300D988CA /* CoreData.framework */,
+				E4FAA3391730301300D988CA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E4FAA33A1730301300D988CA /* ExclusivePush */ = {
+			isa = PBXGroup;
+			children = (
+				E4FAA3461730301300D988CA /* EPAppDelegate.applescript */,
+				E4FAA3481730301300D988CA /* MainMenu.xib */,
+				E4FAA33B1730301300D988CA /* Supporting Files */,
+			);
+			path = ExclusivePush;
+			sourceTree = "<group>";
+		};
+		E4FAA33B1730301300D988CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4FAA33C1730301300D988CA /* ExclusivePush-Info.plist */,
+				E4FAA33D1730301300D988CA /* InfoPlist.strings */,
+				E4FAA3401730301300D988CA /* main.m */,
+				E4FAA3421730301300D988CA /* ExclusivePush-Prefix.pch */,
+				E4FAA3431730301300D988CA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4FAA32E1730301300D988CA /* ExclusivePush */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4FAA34D1730301300D988CA /* Build configuration list for PBXNativeTarget "ExclusivePush" */;
+			buildPhases = (
+				E4FAA32B1730301300D988CA /* Sources */,
+				E4FAA32C1730301300D988CA /* Frameworks */,
+				E4FAA32D1730301300D988CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExclusivePush;
+			productName = ExclusivePush;
+			productReference = E4FAA32F1730301300D988CA /* ExclusivePush.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4FAA3271730301300D988CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EP;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Quintin Smith";
+			};
+			buildConfigurationList = E4FAA32A1730301300D988CA /* Build configuration list for PBXProject "ExclusivePush" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E4FAA3261730301300D988CA;
+			productRefGroup = E4FAA3301730301300D988CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4FAA32E1730301300D988CA /* ExclusivePush */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4FAA32D1730301300D988CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4FAA33F1730301300D988CA /* InfoPlist.strings in Resources */,
+				E4FAA3451730301300D988CA /* Credits.rtf in Resources */,
+				E4FAA34A1730301300D988CA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4FAA32B1730301300D988CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4FAA3411730301300D988CA /* main.m in Sources */,
+				E4FAA3471730301300D988CA /* EPAppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E4FAA33D1730301300D988CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4FAA33E1730301300D988CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E4FAA3431730301300D988CA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4FAA3441730301300D988CA /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E4FAA3481730301300D988CA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4FAA3491730301300D988CA /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4FAA34B1730301300D988CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E4FAA34C1730301300D988CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E4FAA34E1730301300D988CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExclusivePush/ExclusivePush-Prefix.pch";
+				INFOPLIST_FILE = "ExclusivePush/ExclusivePush-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4FAA34F1730301300D988CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExclusivePush/ExclusivePush-Prefix.pch";
+				INFOPLIST_FILE = "ExclusivePush/ExclusivePush-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4FAA32A1730301300D988CA /* Build configuration list for PBXProject "ExclusivePush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4FAA34B1730301300D988CA /* Debug */,
+				E4FAA34C1730301300D988CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4FAA34D1730301300D988CA /* Build configuration list for PBXNativeTarget "ExclusivePush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4FAA34E1730301300D988CA /* Debug */,
+				E4FAA34F1730301300D988CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4FAA3271730301300D988CA /* Project object */;
+}

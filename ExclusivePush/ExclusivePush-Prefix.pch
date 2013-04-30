@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ExclusivePush' target in the 'ExclusivePush' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif
